@@ -1,8 +1,3 @@
----
-
-
----
-
 <p>graph LR<br>
 A[Code Repo] – code change trigger --&gt; B((Scan))<br>
 C[notify team] --&gt; A<br>
