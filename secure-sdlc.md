@@ -33,8 +33,9 @@
 <li><a href="https://ayalamanchili.github.io/oss.html">OSS</a></li>
 <li><a href="https://ayalamanchili.github.io/compliance-tools.html">Compliance</a></li>
 <li><a href="https://ayalamanchili.github.io/treat-moedling.html">Treat Modeling</a></li>
+<li><a href="https://ayalamanchili.github.io/web-scanners.html">Web Scanners</a></li>
 </ul>
-<h3 id="sample-sdlc-workflow-with-potential-best-phases-to-embed-your-security-tools-to-make-it-secure-sdlc.">Sample SDLC workflow with potential best phases to embed your security tools to make it secure SDLC.</h3>
+<h3 id="sample-sdlc-workflow-with-potential-best-phases-to-embed-your-security-tools.">Sample SDLC workflow with potential best phases to embed your security tools.</h3>
 <p><img src="https://docs.google.com/drawings/d/e/2PACX-1vSZPaBFhSQrnUSqV8uiEOB2HVmzsO1p9Gc-7DFoNNGgmfcxA1JxReHFIlwd7dkhZi2bJ-iRsD3P9iJ0/pub?w=960&amp;h=720" alt="enter image description here"></p>
 <h4 id="evaluate-and-identify-the-best-tools-for-your-stack-and-delivery-stream.">Evaluate and identify the best tools for your stack and delivery stream.</h4>
 <p>Depending on your technology stack, skills, infrastructure setup identify the best tools that fit your deployment landscape.</p>
