@@ -15,9 +15,9 @@ issues to central IAST server</p>
 <li>
 <p>IAST tools can be configured to report issues directly to application ticketing systems to manage and remediate security issues</p>
 </li>
-<li></li>
 </ul>
 <h2 id="iast-tools">IAST Tools</h2>
+<p><a href="https://owasp.org/www-community/Free_for_Open_Source_Application_Security_Tools">open source security tools</a></p>
 <h3 id="pros">Pros</h3>
 <ul>
 <li>less false positives since it instrument runtime code</li>
