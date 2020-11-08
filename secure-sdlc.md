@@ -5,8 +5,11 @@
 
 <h1 id="lean-secure-software-delivery">Lean Secure Software Delivery</h1>
 <h2 id="how-to-make-my-organization-dev-sec-ops-ready">How to make my organization dev-sec-ops ready?</h2>
+<p>One of the main challenges that organizations are facing is how to protect and secure their business in the current day of ever evolving cyber treats. This post will try to guide navigate the wide security domain by exploring available options and how they can be utilized to make security build into your applications.</p>
+<blockquote>
 <p>Lessons and best practices from years of work across  projects, teams and cultures pertaining to Lean secure software delivery.<br>
 #ShiftLeft #SecureSDLC #DevSecOps</p>
+</blockquote>
 <h3 id="before-state">Before State</h3>
 <p>Security is a after thought and a necessary evil that software delivery teams have to deal with to release software/products.</p>
 <ul>
@@ -18,9 +21,9 @@
 <li>With growing pressure from business to release will end up creating risk tickets being accepted and vulnerable applications running in production.</li>
 </ul>
 <h3 id="current-state">Current State</h3>
-<p>Security is integrated into the development life cycle from project initialization so security aspects are planned,implemented, identified and fixed early.  Essentially its ingrained into the day to day SDLC of teams.  This helps to made teams deliver secure software faster.</p>
+<p>Security is integrated into the development life cycle from project initialization so security aspects are planned, implemented, identified and fixed early.  Essentially its ingrained into the day to day SDLC of teams.  This helps to made teams deliver secure software faster.</p>
 <h3 id="how-can-you-get-there...">How can you get there…</h3>
-<h4 id="review-your-software-delivery-workflow-and-identify-the-best-place-to-embed-security-tasks-and-issues.">Review your software delivery workflow and identify the best place to embed security tasks and issues.</h4>
+<h4 id="review-your-current-software-delivery-workflow-and-identify-the-best-places-to-embed-appropriate-security-tools-and-processes.">Review your current software delivery workflow and identify the best places to embed appropriate security tools and processes.</h4>
 <p>The best place to fix a bug is on a developers  machine before he commits this code. So this is good option and we should try to best utilize via various security <a href="https://ayalamanchili.github.io/secure-code-ide-plugins.html">IDE plugins</a>.</p>
 <p>At core most delivery pipelines will have some process to build code deploy code to various environments where apps get vetted before moved to higher environments. Identify the lowest environment where security tools can be embedded and how the various issues reported by tools can be  triaged, vetted and delivered to the app teams, in most cases it could a development environment where tools can be embedded and setup to create bug tickets for applications.</p>
 <blockquote>
