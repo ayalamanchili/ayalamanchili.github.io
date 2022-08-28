@@ -1,3 +1,4 @@
+
 # Lean Secure Software Delivery 
 ## How to make my organization dev-sec-ops ready?
 One of the main challenges that organizations are facing is how to protect and secure their business in the current day of ever evolving cyber treats. This post will try to guide navigate the wide security domain by exploring available options and how they can be utilized to make security build into your applications. 
@@ -19,7 +20,22 @@ Security is integrated into the development life cycle from project initializati
 
 
 ### How can you get there...
- #### Review your current software delivery workflow and identify the best places to embed appropriate security tools and processes.
+#### Prerequisites for DevSecOps
+The shift to a continuous development, build, deployment and monitoring framework with appropriate security controls and checks embedded into appropriate phase. Building the new workflow with coordination from your development teams,  security teams and operation and monitoring teams.
+
+#### Implementation:
+
+ - DevSecOps Platform components
+	 - Source Code repositories like github, bitbucket to store and manage all source code.
+	 - Build Tools like maven, gradle, SBT to compile and build deployable artifacts.
+	 - CI/CD tools like Jenkins, AWS codebuild and codedeploy to build, test and create pipelines with deployment steps
+	 - Artifactory like docker hub, jfrog to store your build artifacts.
+	 - Deployment tools to deploy and run your build artifacts.
+	 - Monitoring and reporting tools to review various checks at each stage and report.
+
+
+
+Review your current software delivery workflow and identify the best places to embed appropriate security tools and processes.
  
  The best place to fix a bug is on a developers  machine before he commits this code. So this is good option and we should try to best utilize via various security [IDE plugins](https://ayalamanchili.github.io/secure-code-ide-plugins.html).
  
@@ -45,6 +61,3 @@ Most of the popular tools have a lot of integration points with CI/CD tools. its
 
 #### Onboard your applications
 Onboard your application with this tools so the tools are scanning and running with your applications. This will ensure your security tasks and issues are identified and reported to the necessary members and team for action.
-
-
- 
