@@ -1,40 +1,45 @@
----
 
 
----
+# SAST Orchestration
+Process of analyzing static source code to identify and report security vulnerabilities. 
+TODO high level pic 
+ 
+All new and existing projects will be on boarded to a security automation platform that will listen to code changes and runtime testing on developer machine and/or lower environments. we add listeners/webhooks that will listen to the changes in code/runtime and perform a variety of security checks in background using various [security testing automation tools and frameworks](https://ayalamanchili.github.io/security-testing-automation-tools.html). If a issue is found the its first sent to first response team to triage who will validate the issue which if is a valid finding will create a Bug for project team. This process typically happens with in ~4 hours from the moment the vulnerable code is checked in. 
+ As teams get notified with tickets with the needed details pertaining they can fix it and the Security orchestration will listen and run validated checks and if passed will close the issue and notify team.
+ 
+## How to Integrate 
 
-<h1 id="sast-orchestration">SAST Orchestration</h1>
-<p>Process of analyzing static source code to identify and report security vulnerabilities.<br>
-TODO high level pic</p>
-<p>All new and existing projects will be on boarded to a security automation platform that will listen to code changes and runtime testing on developer machine and/or lower environments. we add listeners/webhooks that will listen to the changes in code/runtime and perform a variety of security checks in background using various <a href="https://ayalamanchili.github.io/security-testing-automation-tools.html">security testing automation tools and frameworks</a>. If a issue is found the its first sent to first response team to triage who will validate the issue which if is a valid finding will create a Bug for project team. This process typically happens with in ~4 hours from the moment the vulnerable code is checked in.<br>
-As teams get notified with tickets with the needed details pertaining they can fix it and the Security orchestration will listen and run validated checks and if passed will close the issue and notify team.</p>
-<h2 id="how-to-integrate">How to Integrate</h2>
-<p><strong>Approach #1:</strong> Add build step to trigger SAST code scan as part of your CI/CD pipeline.  So as software gets build that triggers the pipeline will runs scans.<br>
-<strong>Pros:</strong></p>
-<ul>
-<li>makes security scans part of your existing software delivery pipeline</li>
-<li>can easily configure  to fail insecure builds to be promoted to higher environments</li>
-</ul>
-<p><strong>Cons:</strong></p>
-<ul>
-<li>improper tuning of scan setting will result in too many false positives which results in wasted cycles.</li>
-</ul>
-<p><strong>Approach #2:</strong>  Build orchestration software to listen to code changes across projects and trigger code scans for projects independent of application CI/CD pipelines.<br>
-<strong>Pros:</strong></p>
-<ul>
-<li>independent background process that runs behind the delivery pipeline and only notifies when there is a validated issue</li>
-</ul>
-<p><strong>Cons:</strong></p>
-<ul>
-<li>no active involvement of development teams except to fix issues</li>
-</ul>
-<p>Approach #1 fares well with org/team culture which is more open and ready to embrace security into their life cycle.<br>
-Approach #2 fares well with org/team culture which sees security as a separate aspect.</p>
-<h2 id="sast-scan-tools">SAST scan tools</h2>
-<p>There are a variety of <a href="https://owasp.org/www-community/Source_Code_Analysis_Tools">SAST Tools</a> available. please reivew and pick the one best for your case.</p>
-<h2 id="what-happens-after-scans">What happens after scans</h2>
-<ul>
-<li>As scans run and report issues its important to <strong>tune</strong> and/or <strong>validate</strong> (remove false positives) this is a essential step to remove the noise and only channel the confirmed ones to the attention of development teams.</li>
-</ul>
-<div class="mermaid"><svg xmlns="http://www.w3.org/2000/svg" id="mermaid-svg-kzRA2v5iQGxN1yAb" width="100%" style="max-width: 903.1015625px;" viewBox="0 0 903.1015625 199.4296875"><g transform="translate(-12, -12)"><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath" style="opacity: 1;"><path class="path" d="M117.109375,134.12008545894884L248.8984375,94.21484375L380.6875,94.21484375" marker-end="url(#arrowhead221)" style="fill:none"></path><defs><marker id="arrowhead221" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M748.5134477046747,171.822265625L668.9765625,203.4296875L558.05859375,203.4296875L458.84375,203.4296875L407.265625,203.4296875L248.8984375,203.4296875L117.109375,163.52444579105116" marker-end="url(#arrowhead222)" style="fill:none"></path><defs><marker id="arrowhead222" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M433.84375,94.21484375L458.84375,94.21484375L484.34375,94.71484375" marker-end="url(#arrowhead223)" style="fill:none"></path><defs><marker id="arrowhead223" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M632.7734375,94.71484375L668.9765625,94.21484375L748.5134477046747,125.822265625" marker-end="url(#arrowhead224)" style="fill:none"></path><defs><marker id="arrowhead224" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(248.8984375,94.21484375)" style="opacity: 1;"><g transform="translate(-106.7890625,-13)" class="label"><foreignObject width="213.578125" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">code change trigger/build step</span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(668.9765625,94.21484375)" style="opacity: 1;"><g transform="translate(-11.703125,-13)" class="label"><foreignObject width="23.40625" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">yes</span></div></foreignObject></g></g></g><g class="nodes"><g class="node" id="A" transform="translate(68.5546875,148.822265625)" style="opacity: 1;"><rect rx="0" ry="0" x="-48.5546875" y="-23" width="97.109375" height="46"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-38.5546875,-13)"><foreignObject width="77.109375" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Code Repo</div></foreignObject></g></g></g><g class="node" id="B" transform="translate(407.265625,94.21484375)" style="opacity: 1;"><circle x="-26.578125" y="-23" r="26.578125"></circle><g class="label" transform="translate(0,0)"><g transform="translate(-16.578125,-13)"><foreignObject width="33.15625" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Scan</div></foreignObject></g></g></g><g class="node" id="C" transform="translate(806.390625,148.822265625)" style="opacity: 1;"><rect rx="0" ry="0" x="-100.7109375" y="-23" width="201.421875" height="46"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-90.7109375,-13)"><foreignObject width="181.421875" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">notify team/create tickets</div></foreignObject></g></g></g><g class="node" id="D" transform="translate(558.05859375,94.21484375)" style="opacity: 1;"><polygon points="74.21484375,0 148.4296875,-74.21484375 74.21484375,-148.4296875 0,-74.21484375" rx="5" ry="5" transform="translate(-74.21484375,74.21484375)"></polygon><g class="label" transform="translate(0,0)"><g transform="translate(-49.4609375,-13)"><foreignObject width="98.921875" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">has any issues</div></foreignObject></g></g></g></g></g></g></svg></div>
+**Approach #1:** Add build step to trigger SAST code scan as part of your CI/CD pipeline.  So as software gets build that triggers the pipeline will runs scans.
+**Pros:**
+ - makes security scans part of your existing software delivery pipeline
+ - can easily configure  to fail insecure builds to be promoted to higher environments
 
+ **Cons:**
+ - improper tuning of scan setting will result in too many false positives which results in wasted cycles.
+ 
+**Approach #2:**  Build orchestration software to listen to code changes across projects and trigger code scans for projects independent of application CI/CD pipelines.
+**Pros:**
+ - independent background process that runs behind the delivery pipeline and only notifies when there is a validated issue
+
+**Cons:**
+ - no active involvement of development teams except to fix issues
+
+Approach #1 fares well with org/team culture which is more open and ready to embrace security into their life cycle.
+Approach #2 fares well with org/team culture which sees security as a separate aspect. 
+
+## SAST scan tools
+
+There are a variety of [SAST Tools](https://owasp.org/www-community/Source_Code_Analysis_Tools) available. please reivew and pick the one best for your case.
+
+
+## What happens after scans
+
+ - As scans run and report issues its important to **tune** and/or **validate** (remove false positives) this is a essential step to remove the noise and only channel the confirmed ones to the attention of development teams.
+ 
+
+```mermaid
+graph LR
+A[Code Repo] -- code change trigger/build step --> B((Scan))
+C[notify team/create tickets] --> A
+B --> D{has any issues}
+D -- yes --> C
