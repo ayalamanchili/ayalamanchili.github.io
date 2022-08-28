@@ -1,29 +1,34 @@
----
+# IAST
+Interactive Application Security Testing is the process of instrumenting runtime code to identify and report security vulnerabilities. Agents specific to each programming language run alongside the application to monitor traffic and scan application runtime code to detect vulnerabilities and report them to the central server.
+
+Organizations small and medium who are looking for simple, effective and quick security solution that encompases features of SAST, DAST and OSS. IAST is a perfect solution as the onboarding, setup and maintenance is less. While also providing effective results.
+
+### Benefits
+ - As agents have direct  access to runtime source code and traffic they are in a better position to identify true positives compared to SAST. 
+ - Also agents can scan to identify runtime dependencies to identify true positive OSS vulnerabilities. 
+ - As agents can be added to application in lower environments and even local developer machines they can be utilized to achieve early detection and DevSecOps
+ - 
+## How to integrate
+
+ - IAST client agents should be initialized during application startup in lower level environments in continuous monitor mode.
+ - IAST tools can be configured to report issues directly to application ticketing systems to manage and remediate security issues
+ - IAST agents can be also utilized with IDE's to help identify issues with local development.
+ - The are many options available ranging from IDE, Maven, Gradle, Docker and other options to plugin agents to your runtime.
+ - 
+
+## IAST Tools
+[open source security tools](https://owasp.org/www-community/Free_for_Open_Source_Application_Security_Tools)
+
+### Considerations
+ - IAST agents typically have a minor performance impact so important to evaluate them for your technology stack.
+ - Its critical to setup automation to keep agents and policies up to date to produce effective results. 
+ - We have noticed issues with agents having issues with some technology stacks.
+
+### Tidbit
+ - When the Log4j CVE were published IAST tools were utilized to identify all applications using the vulnerable library and remediate them.
+ 
 
 
----
 
-<h1 id="iast">IAST</h1>
-<p>Process of instrumenting runtime code to identify and report security vulnerabilities.</p>
-<h2 id="how-to-integrate">How to integrate</h2>
-<ul>
-<li>
-<p>IAST client agents should be initialized during application startup<br>
-so they can instrument runtime code to detect and report security<br>
-issues to central IAST server</p>
-</li>
-<li>
-<p>IAST tools can be configured to report issues directly to application ticketing systems to manage and remediate security issues</p>
-</li>
-</ul>
-<h2 id="iast-tools">IAST Tools</h2>
-<p><a href="https://owasp.org/www-community/Free_for_Open_Source_Application_Security_Tools">open source security tools</a></p>
-<h3 id="pros">Pros</h3>
-<ul>
-<li>less false positives since it instrument runtime code</li>
-</ul>
-<h3 id="cons">Cons</h3>
-<ul>
-<li>add minor performance impact.</li>
-</ul>
+
 
