@@ -1,8 +1,3 @@
----
+Engineering Blog Home
 
-
----
-
-<p>Engineering Blog Home</p>
-<p><a href="https://ayalamanchili.github.io/secure-sdlc.html">Lean Secure Software Delivery</a></p>
-
+[How to protect my organization in the current world of ever evolving cyber threats?](https://ayalamanchili.github.io/secure-sdlc.html)
