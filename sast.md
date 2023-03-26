@@ -36,10 +36,5 @@ There are a variety of [SAST Tools](https://owasp.org/www-community/Source_Code_
 
  - As scans run and report issues its important to **tune** and/or **validate** (remove false positives) this is a essential step to remove the noise and only channel the confirmed ones to the attention of development teams.
  
+ 
 
-```mermaid
-graph LR
-A[Code Repo] -- code change trigger/build step --> B((Scan))
-C[notify team/create tickets] --> A
-B --> D{has any issues}
-D -- yes --> C
