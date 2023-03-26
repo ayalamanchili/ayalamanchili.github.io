@@ -44,7 +44,7 @@ At core most delivery pipelines will have some process to build code deploy code
 ### Below are various tool categories that can be utilized.
  - [SAST](https://ayalamanchili.github.io/sast.html)
 -  [IAST](https://ayalamanchili.github.io/iast.html)
--  [OSS](https://ayalamanchili.github.io/oss.html)
+-  [OSS](https://ayalamanchili.github.io/oss-security.html)
 - [Compliance](https://ayalamanchili.github.io/compliance-tools.html)
 - [Treat Modeling](https://ayalamanchili.github.io/treat-moedling.html)
 - [Web Scanners](https://ayalamanchili.github.io/web-scanners.html)
