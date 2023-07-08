@@ -1,10 +1,12 @@
-
+# SAST
+SAST stands for Static Application Security Testing. Its aimed at scanning your organaizations custom code to identify security vulnarabilities like SQL injection, Buffer Overflow.
 
 # SAST Orchestration
-Process of analyzing static source code to identify and report security vulnerabilities. 
-TODO high level pic 
- 
-All new and existing projects will be on boarded to a security automation platform that will listen to code changes and runtime testing on developer machine and/or lower environments. we add listeners/webhooks that will listen to the changes in code/runtime and perform a variety of security checks in background using various [security testing automation tools and frameworks](https://ayalamanchili.github.io/security-testing-automation-tools.html). If a issue is found the its first sent to first response team to triage who will validate the issue which if is a valid finding will create a Bug for project team. This process typically happens with in ~4 hours from the moment the vulnerable code is checked in. 
+Integrating your organazations SDLC processto include SAST scans will help identify these security vulnarabilities early on there by producing security applications.
+
+## How can SAST be added to your SDLC.
+
+All new and existing projects will be on-boarded to a security automation platform that will listen to code changes on developer machine and/or lower environments. we add listeners/webhooks that will listen to the changes in code/runtime and perform a variety of security checks in background using various [security testing automation tools and frameworks](https://ayalamanchili.github.io/security-testing-automation-tools.html). If a issue is found the its first sent to first response team to triage who will validate the issue which if is a valid finding will create a Bug for project team. This process typically happens with in ~4 hours from the moment the vulnerable code is checked in. 
  As teams get notified with tickets with the needed details pertaining they can fix it and the Security orchestration will listen and run validated checks and if passed will close the issue and notify team.
  
 ## How to Integrate 
