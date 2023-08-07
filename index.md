@@ -8,3 +8,11 @@ Engineering Blog Home
 
 [Antivirus Scanner](https://ayalamanchili.github.io/antivirus-file-scanner.html)
 
+[Lambda Security](https://ayalamanchili.github.io/lambda-security.html)
+
+[Open Source Security](https://ayalamanchili.github.io/oss-security.html)
+
+[Threat Modeling](https://ayalamanchili.github.io/threat-modeling.html)
+
+[Vulnarability Management](https://ayalamanchili.github.io/vulnerability-management.html)
+
