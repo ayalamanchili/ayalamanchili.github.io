@@ -1,6 +1,7 @@
 # AWS Security must have
 
 ## Vulnarability Management
+Involves identifying, assessing, prioritizing, and mitigating vulnerabilities in your cloud infrastructure, applications, and services. AWS provides several tools and services that can help you effectively manage vulnerabilities.
 Amazon Inspector automatically discovers workloads, such as Amazon EC2 instances, containers, and Lambda functions, and scans them for software vulnerabilities and unintended network exposure.
 
 ## Threat Detection
