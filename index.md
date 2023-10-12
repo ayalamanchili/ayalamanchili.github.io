@@ -16,3 +16,7 @@ Engineering Blog Home
 
 [Vulnarability Management](https://ayalamanchili.github.io/vulnerability-management.html)
 
+[AWS cloud security journey](https://ayalamanchili.github.io/aws-cloud-security-journey.html)
+
+[AWSWAF best practices](https://ayalamanchili.github.io/aws/awswaf-best-practices.html)
+
