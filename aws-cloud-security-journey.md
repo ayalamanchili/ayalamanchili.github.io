@@ -3,6 +3,7 @@
 ## Vulnarability Management
 Involves identifying, assessing, prioritizing, and mitigating vulnerabilities in your cloud infrastructure, applications, and services. AWS provides several tools and services that can help you effectively manage vulnerabilities.
 Amazon Inspector automatically discovers workloads, such as Amazon EC2 instances, containers, and Lambda functions, and scans them for software vulnerabilities and unintended network exposure.
+Also read [Utilizing AWS Security Hub for vulnarability management](https://ayalamanchili.github.io/aws/vulnarability-management-with-security-hub.html)
 
 ## Threat Detection
 Amazon GuardDuty is a threat detection service that continuously monitors your AWS accounts and workloads for malicious activity and delivers detailed security findings for visibility and remediation.
