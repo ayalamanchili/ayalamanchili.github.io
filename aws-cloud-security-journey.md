@@ -20,5 +20,7 @@ AWS CloudTrail monitors and records account activity across your AWS infrastruct
 AWS Firewall Manager is a security management service that allows you to centrally configure and manage firewall rules across your accounts and applications in AWS Organizations. As new applications are created, Firewall Manager makes it easier to bring new applications and resources into compliance by enforcing a common set of security rules.
 
 ## WAF
-AWS WAF helps you protect against common web exploits and bots that can affect availability, compromise security, or consume excessive resources.
+AWS WAF helps you protect against common web exploits, bots and DDOS that can affect availability, compromise security, or consume excessive resources.
+
+Also see [AWSWAF best practices](https://ayalamanchili.github.io/aws/awswaf-best-practices.html)
 
