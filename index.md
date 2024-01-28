@@ -17,7 +17,7 @@
 
 [Interactive Application Security Testing (IAST) ](https://ayalamanchili.github.io/appsec/iast.html)
 
-[Runtime Application Self Protection (RASP) ](https://ayalamanchili.github.io/appsec/RASP.html)
+[Runtime Application Self Protection (RASP) ](https://ayalamanchili.github.io/appsec/rasp.html)
 
 [SCA Security](https://ayalamanchili.github.io/appsec/sca.html)
 
@@ -35,13 +35,22 @@
 
 [AWSWAF best practices](https://ayalamanchili.github.io/cloud/aws/awswaf-best-practices.html)
 
-[Vulnarability Management with SecurityHub](https://ayalamanchili.github.io/cloud/aws/vulnerability-management-wiht-security-hub.html)
+[Vulnarability Management with SecurityHub](https://ayalamanchili.github.io/cloud/aws/vulnerability-management-with-security-hub.html)
 
-### Compliance
+### Cloud Azure
+
+[AWS cloud security journey](https://ayalamanchili.github.io/cloud/azure/azure-cloud-security-journey.html)
+
+### Security Compliance and Assessments
 
 [Compliance Journey](https://ayalamanchili.github.io/compliance/compliance-journey.html)
 
 [Compliance Tools](https://ayalamanchili.github.io/compliance/compliance-tools.html)
 
 [MARSE Compliance](https://ayalamanchili.github.io/compliance/mars-e-compliance.html)
+
+
+### AI Security
+
+[101 of AI Security](https://ayalamanchili.github.io/ai/101-ai-security.html)
 
