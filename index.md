@@ -52,5 +52,5 @@
 
 ### AI Security
 
-[101 of AI Security](https://ayalamanchili.github.io/ai/101-ai-security.html)
+[AI security basics](https://ayalamanchili.github.io/ai/owasp-ai-security.html)
 
