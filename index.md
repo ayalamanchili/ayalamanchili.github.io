@@ -27,6 +27,8 @@
 
 [Vulnarability Management](https://ayalamanchili.github.io/appsec/vulnerability-management.html)
 
+[Software Supply Chain Security](https://ayalamanchili.github.io/appsec/software-supply-chain-security.html)
+
 
 
 ### Cloud AWS
