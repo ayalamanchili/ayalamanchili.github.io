@@ -9,7 +9,7 @@ SSC represents the lifecycle of software code, dependencies, build and deploymen
 
 ## Phases of SSC
 
-### Code
+### Code Phase
 
 #### Protecting Source Code Repository
 This is the criticaly entry point that was used to inject malicious code for the recent attacks. So its imperative to ensure only proper authentication and authorization controls are present for the source code repository.
@@ -25,11 +25,11 @@ Ensure there is a proper validation process to vet open source dependencies that
 Setting up a Artifact Repository that will only serve vetted open source dependencies that are constantly scanned for vulnarabilities and developers can only download dependencies from this will help secure SCA libraries.
 
 
-### Build
-Once the software deployable artifact is built and moved along with deployment pipeline there should be controls to ensure the package cannot be updated with any malicious packages. This is referred as build package integrity.
+### Build Phase
+Compromised build platform can let untrusted code to sneak into the package. Ensuring build pipeline employes same level of protection with source code so its not tampered.
 
-### Deploy
-Finally there should be runtime continous monitoring to ensure the runtime package is not updated by any process.
+### Package and Distribute Phase
+Once the software deployable package is built and ready to be distributed there should be controls to ensure the package cannot be updated with any malicious packages. This is referred as build package integrity.
 
 
 
