@@ -5,6 +5,8 @@ Given the criticality of vulnarabilities like XZ Utils, Solarwinds and Log4j thi
 ## What is Software Supply Chain Security
 SSC represents the lifecycle of software code, dependencies, build and deployment. Given the wide array of open source software dependencies that are embdeeded into software deployed and running across the world. Its imparative to understand various stages and ensure there are enough preventative measure at each step there by ensuring security in SSC.
 
+![Software Supply Chain Security Phases](https://www.opensourcerers.org/wp-content/uploads/2023/07/Screenshot-2023-07-17-at-07.40.22.png)
+
 ## Phases of SSC
 
 ### Code
