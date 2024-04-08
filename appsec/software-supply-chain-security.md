@@ -1,6 +1,6 @@
 ## Software Supply Chain Security (SSC)
 
-Given the criticality of vulnarabilities like XZ Utils, Solarwinds and Log4j this article try's to shed light on Software Supply Chain Security background and review options for organaizations to secure againest them.
+Given the criticality of vulnarabilities like XZ Utils, Solarwinds and Log4j this article try's to shed light on Software Supply Chain Security background and review options for organaizations to secure against them.
 
 ## What is Software Supply Chain Security
 SSC represents the lifecycle of software code, dependencies, build and deployment. Given the wide array of open source software dependencies that are embdeeded into software deployed and running across the world. Its imparative to understand various stages and ensure there are enough preventative measure at each step there by ensuring security in SSC.
