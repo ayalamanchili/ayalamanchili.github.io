@@ -53,6 +53,8 @@
 
 [NIST 800-171 Compliance](https://ayalamanchili.github.io/compliance/nist-800-171.html)
 
+[Supply Chain Security Compliance with NIST SP 800-204D](https://ayalamanchili.github.io/compliance/NIST SP 800-204D.html)
+
 ### AI Security
 
 [AI security basics](https://ayalamanchili.github.io/ai/owasp-ai-security.html)
