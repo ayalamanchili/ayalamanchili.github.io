@@ -7,7 +7,7 @@ It is part of the NIST Special Publication series focused on cloud-native applic
  - By integrating security measures into CI/CD pipelines, organizations can automate compliance, ensure artifact integrity, and enhance the overall security posture.
 
 
- ![alt text](/static/sscs-flow.png.png)
+ ![alt text](/static/sscs-flow.png)
 
 ### Steps to acheive compliance with NIST 800-204D?
 
