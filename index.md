@@ -12,6 +12,7 @@
 
 ### Appsec
 
+[AppSec Fullstack Components ](https://ayalamanchili.github.io/appsec/appsec-fullstack-components.html)
 
 [Static Application Security Testing (SAST) ](https://ayalamanchili.github.io/appsec/sast.html)
 
