@@ -30,6 +30,8 @@
 
 [Software Supply Chain Security](https://ayalamanchili.github.io/appsec/software-supply-chain-security.html)
 
+[Open Source Software Security Scorecard](https://ayalamanchili.github.io/appsec/oss-security-scorecard.html)
+
 
 
 ### Cloud AWS
