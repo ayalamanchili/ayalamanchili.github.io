@@ -56,6 +56,8 @@
 
 [NIST 800-171 Compliance](https://ayalamanchili.github.io/compliance/nist-800-171.html)
 
+[NIST 800-53 Compliance](https://ayalamanchili.github.io/compliance/nist-800-53.html)
+
 [Supply Chain Security Compliance with NIST SP 800-204D](https://ayalamanchili.github.io/compliance/NIST SP 800-204D.html)
 
 ### AI Security
