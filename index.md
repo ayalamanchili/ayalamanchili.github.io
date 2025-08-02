@@ -64,3 +64,18 @@
 
 [AI security basics](https://ayalamanchili.github.io/ai/owasp-ai-security.html)
 
+[AI LLM Security Program](https://ayalamanchili.github.io/ai/ai-llm-security-program-cycle.html)
+
+[LLM Model Types](https://ayalamanchili.github.io/ai/llm-model-types.html)
+
+[ML Model Security](https://ayalamanchili.github.io/ai/ml-model-security.html)
+
+[OWASP AI Security](https://ayalamanchili.github.io/ai/owasp-ai-security.html)
+
+[Secure AI Framework](https://ayalamanchili.github.io/ai/secure-ai-framework.html)
+
+[AI LLM vs Traditional SDLC Security](https://ayalamanchili.github.io/ai/ai-llm-vs-traditional-sdlc-security.html)
+
+
+
+
