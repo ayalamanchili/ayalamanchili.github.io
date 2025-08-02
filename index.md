@@ -62,7 +62,7 @@
 
 ### AI Security
 
-[AI security basics](https://ayalamanchili.github.io/ai/owasp-ai-security.html)
+[AI Privacy and Security](https://ayalamanchili.github.io/ai/privacy-and-security-in-ai-security.html)
 
 [AI LLM Security Program](https://ayalamanchili.github.io/ai/ai-llm-security-program-cycle.html)
 
@@ -70,9 +70,7 @@
 
 [ML Model Security](https://ayalamanchili.github.io/ai/ml-model-security.html)
 
-[OWASP AI Security](https://ayalamanchili.github.io/ai/owasp-ai-security.html)
-
-[Secure AI Framework](https://ayalamanchili.github.io/ai/secure-ai-framework.html)
+[Google Security AI Framework (SAIF)](https://ayalamanchili.github.io/ai/google-security-ai-framework-saif.html)
 
 [AI LLM vs Traditional SDLC Security](https://ayalamanchili.github.io/ai/ai-llm-vs-traditional-sdlc-security.html)
 

@@ -1,4 +1,4 @@
-##  Key privacy and security concepts of AI Security
+##  Key privacy and security concepts in AI Security
 
 ### Use Limitation and Purpose Specification
 **AI use limitation** emphasizes restricting the ways in which AI systems and their associated data are used. It involves defining clear boundaries and limitations on the purposes for which AI technologies can be deployed.
@@ -27,6 +27,5 @@ The accuracy of an AI model is heavily dependent on the quality of the data used
 ### Concent
 Obtaining informed consent from individuals before collecting and processing their personal data is a fundamental principle in privacy rights. This becomes crucial when AI systems are designed to analyze or make decisions based on personal information.
 - Model attacks
-- 
 
 
