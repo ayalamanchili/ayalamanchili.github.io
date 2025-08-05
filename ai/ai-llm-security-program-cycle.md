@@ -103,10 +103,3 @@ Use STRIDE/PASTA adapted for AI systems.
 - Conduct periodic reviews and external assessments.
 
 
----
-
-## ✅ Want More?
-Let me know if you need:
-- 📄 AI LLM Security Policy Template
-- 📋 CI/CD Security Checklist for LLM
-- 📊 Risk Register Example
