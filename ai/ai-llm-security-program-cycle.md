@@ -20,7 +20,7 @@ Use STRIDE/PASTA adapted for AI systems.
 
 ---
 
-## 3. Secure LLM Lifecycle (SDLC + ML Lifecycle)
+## 3. Secure LLM Lifecycle (SDLC + ML Lifecycle) (MLS-SDLC)
 
 ### 🧪 Model Development & Training
 - Ensure **clean, vetted, and privacy-compliant datasets**.
@@ -58,7 +58,16 @@ Use STRIDE/PASTA adapted for AI systems.
 
 ---
 
-## 6. LLM Security Testing
+## 6. Application & Prompt Security
+
+ - Prompt design controls: content policies, system prompts governance, secrets never placed in prompts.
+ - Prompt injection defenses: input/output filtering, allow-lists for tools/functions, constrained tool use, content       provenance checks.
+  - Jailbreak/abuse controls: safety middleware, guardrails, refusal patterns, rate shaping, “do/ask” separation.
+  - Response hardening: structured output schemas, JSON schema validation, function call constraints, output encoding to prevent XSS/HTML injection.
+
+RAG security: retrieval allow-listing, per-doc ACL enforcement, query rewriting protections, metadata-based access checks.
+
+## 7. LLM Security Testing
 - Red team your model with:
   - Adversarial prompts
   - Prompt injection tools (e.g., `PromptBench`, `Gandalf`, `OpenAI Eval Framework`)
@@ -70,14 +79,14 @@ Use STRIDE/PASTA adapted for AI systems.
 
 ---
 
-## 7. Incident Response Plan for AI Systems
-- Define AI-specific playbooks (e.g., for data leakage via prompt injection).
-- Ensure **logging and traceability** of prompts, completions, and decisions.
-- Test and refine response regularly.
+## 8. Incident Response Plan for AI Systems
+ - Playbooks: jailbreak/prompt-injection containment, model rollback, cache purge, vendor key rotation.
+ - Detection: detectors for policy-violating outputs, anomalous usage, data egress spikes.
+ - Forensics & evidence: prompt/output traces, tool call logs, model/version IDs, retrieval docs.
 
 ---
 
-## 8. Compliance, Legal, and Ethics
+## 9. Compliance, Legal, and Ethics
 - Align with:
   - NIST AI RMF
   - EU AI Act
@@ -88,14 +97,15 @@ Use STRIDE/PASTA adapted for AI systems.
 
 ---
 
-## 9. Awareness & Training
+## 10. Awareness & Training
 - Train developers on AI risks.
+ - Secure prompt/use training for engineers and business users.
 - Educate end users on **safe prompt usage**, model limitations, and potential abuses.
 - Run internal workshops and phishing-style exercises for prompt injection awareness.
 
 ---
 
-## 10. Continuous Improvement
+## 11. Continuous Improvement
 - Establish KPIs:
   - Number of blocked jailbreak attempts
   - Prompt anomaly rate
